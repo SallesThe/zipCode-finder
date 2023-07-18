@@ -1,0 +1,23 @@
+{
+    "name": "manod/digital-cep",
+    "description": "Busca cep online",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search" : "src/"
+        },
+        "psr-4": {
+            "Manod\\DigitalCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SallesThe",
+            "email": "manodada26@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
